@@ -2,7 +2,6 @@
 Getting Started with Flask framework to know how things work
 
 REQUIREMENTS
-
-Python 3.7
+Python 3.8
 Flask
 Pipenv 
