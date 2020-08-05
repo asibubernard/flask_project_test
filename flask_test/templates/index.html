@@ -1,8 +1,8 @@
-<html>
-    <head>
-        <title>{{ title }} - Flask_Project Test</title>
-    </head>
-    <body>
-        <h1>Hello man, this is my emailID: {{ email.emailID }}!</h1>
-    </body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hello man, this is my emailID: {{ email.emailID }}!</h1>
+        {% for post in posts %}
+        <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+        {% endfor%}
+{% endblock %}
