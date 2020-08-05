@@ -7,8 +7,8 @@
         {% endif %}
     </head>
     <body>
-        <div>FLASK PROJECT TEST: <a href="/index">Home</a>
-                                 <a href="/login">Log In</a>                           
+        <div>FLASK PROJECT TEST: <a href="{{ url_for('index') }}">Home</a>
+                                 <a href="{{ url_for('login') }}">Log In</a>                           
         </div>
         <hr>
         <!-- Flash Message -->
