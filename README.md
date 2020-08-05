@@ -1,5 +1,5 @@
 # flask_project_test
-Getting Starting with Flask Framework to know how things work
+Getting Started with Flask framework to know how things work
 
 REQUIREMENTs
 Python3.8
